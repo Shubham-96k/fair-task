@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand"
+    routerLink=""
+    >
+        <img src="https://www.fairforall.org/wp-content/uploads/2023/08/FAIR-in-the-Arts-Logo-1024x1024.png" 
+        alt="logo" title="fiars">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="" 
+          [routerLinkActiveOptions]="{exact : true}"
+          routerLinkActive="active">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="fairs" routerLinkActive="active">Fairs</a>
+        </li>
+      </ul>
+      
+    </div>
+  </nav>
